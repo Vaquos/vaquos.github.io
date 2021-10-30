@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    margin-right: 100px;
+}
+
+nav ul li {
+    font-size: 20px;
+}
+
+span{
+    color: white;
+}
+
+.title{
+    color: white;
+    font-size: 25px;
+}
+
+.judul{
+    margin-top: 30px;
+    text-align: center;
+}
+
+table{
+    margin-left: 10px;
+    border: 2px solid black;
+}
+
+table th {
+    text-align: center;
+    padding: 10px;
+}
+
+table tr td{
+    padding: 15px;
+
+}
+
+.search{
+    margin-left: 10px;
+}
+
+.search button {
+    padding-left: 7px;
+    padding-right: 7px;
+}
