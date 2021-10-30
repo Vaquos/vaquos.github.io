@@ -29,3 +29,15 @@ span{
     margin-left: 10px;
     margin-right: 10px;
 }
+
+footer {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: rgb(36, 35, 35);
+}
