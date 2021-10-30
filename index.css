@@ -1,3 +1,31 @@
-body{
-    background-color: aqua;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    margin-right: 100px;
+}
+
+nav ul li a{
+    font-size: 20px;
+}
+
+span{
+    color: white;
+}
+
+.judul{
+    color: white;
+    font-size: 25px;
+}
+
+.content h3{
+    text-align: center;
+}
+
+.content p {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
 }
