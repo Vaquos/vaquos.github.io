@@ -3,7 +3,8 @@
     padding: 0;
 }
 
-nav {
+.navbar {
+    width: 100%;
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.8);
 }
 
@@ -19,6 +20,7 @@ nav ul li a{
     border-radius: 0;
 }
 
+
 span{
     color: white;
 }
@@ -26,6 +28,11 @@ span{
 .judul{
     color: white;
     font-size: 25px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .content h3{
@@ -40,7 +47,7 @@ span{
 
 footer {
     display: flex;
-    position: relative;
+    position:absolute;
     bottom: 0;
     justify-content: center;
     align-items: center;
@@ -51,4 +58,23 @@ footer {
     color: white;
     box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.8);
     background-color: rgb(36, 35, 35);
+}
+
+@media  screen and (max-width: 768px) {
+    footer {
+        display: flex;
+        position: relative;
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .dropdown-menu {
+        box-shadow: 2px 2px 10px  rgba(0, 0, 0, 0.5);
+    }
+    footer {
+        display: flex;
+        position: relative;
+        bottom: 0;
+    }
 }
